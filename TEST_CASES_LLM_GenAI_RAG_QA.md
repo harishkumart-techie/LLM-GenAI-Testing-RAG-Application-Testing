@@ -189,24 +189,3 @@ These are review observations to verify and address during testing; they are not
 9. Pin tested dependencies and create a repeatable test setup.
 10. Implement an automated test suite and record actual execution evidence before claiming automated coverage.
 
-## 5. Recommended GitHub layout
-
-```text
-llm-genai-rag-testing/
-├── README.md
-├── TEST_CASES.md
-├── test-data/
-│   ├── sample_questions.json
-│   └── golden_dataset_template.csv
-├── tests/
-│   ├── test_rag_quality.py
-│   ├── test_api.py
-│   └── test_policy_extraction.py
-├── ai-assisted-qa/
-│   ├── test-generation-workflow.md
-│   └── human-review-checklist.md
-└── reports/
-    └── test-run-template.md
-```
-
-Add only files you have created and validated. Keep real secrets, employee data, confidential documents, virtual environments, caches, and local database binaries out of the public repository.
